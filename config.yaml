@@ -1,0 +1,45 @@
+author:
+  email: contact@ylibrary.org
+  name: Ylibrary
+baseurl: https://ylibrary.org
+copyright: © Ylibrary
+languagecode: zh-cn
+enablerobotstxt: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: vs
+menu:
+  main:
+  - identifier: home
+    name: Home
+    weight: 10
+    url: /
+  - identifier: about
+    name: About
+    weight: 20
+    url: /about/
+  - identifier: blog
+    name: Blog
+    weight: 30
+    url: /blog/
+  - identifier: projects
+    name: Projects
+    weight: 50
+    url: /projects/
+  - identifier: search
+    name: Search engine
+    weight: 50
+    url: https://search.ylibrary.org
+paginate: 50
+permalinks:
+  blog: /blog/:year/:month/:day/:title/
+social:
+  envelope: mailto:contact@ylibrary.org
+  github: https://github.com/ylibrary-org
+theme: paige
+timezone: America/Los_Angeles
+title: YLibrary Project
+titlecasestyle: Go
