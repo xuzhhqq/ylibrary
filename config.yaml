@@ -1,6 +1,7 @@
 author:
   email: contact@ylibrary.org
   name: Ylibrary
+BaseURL: https://ylibrary.org
 baseurl: https://ylibrary.org
 copyright: © Ylibrary
 languagecode: zh-cn
