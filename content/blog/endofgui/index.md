@@ -13,4 +13,8 @@ draft: false
 {"name":"Ylibrary","url":"https://api.ylibrary.org","type":"full","sensitive":true,"detail": true}
 ```
 
-或者使用[预配置链接](https://search.zhelper.net/?[{"name":"Ylibrary","url":"https://api.ylibrary.org","type":"full","sensitive":true,"detail": true}])
+对于 zhelper 搜索前端，可以使用预配置链接，复制以下全部内容，在浏览器打开：
+
+```txt
+https://search.zhelper.net/?[{"name":"Ylibrary","url":"https://api.ylibrary.org","type":"full","sensitive":true,"detail": true}]
+```
